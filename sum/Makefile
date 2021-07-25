@@ -1,7 +1,7 @@
-CXX=g++-9
+CXX=g++-10
 WARNINGS=-Wall -Wextra -Wpedantic
 ASAN=-fsanitize=address -static-libasan
-FLAGS=-O3 -g -std=c++17 $(WARNINGS) -I ../include
+FLAGS=-O3 -std=c++17 $(WARNINGS) -I ../include
 
 all: co_test
 
